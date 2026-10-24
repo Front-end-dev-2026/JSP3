@@ -3,6 +3,7 @@ const password = prompt("Enter your password");function isValidPassword(password
 
 return (
     password.length >= 8 &&
-    password !== username
+    password !== username &&
+    !password.includes(" ")
 );
 }
