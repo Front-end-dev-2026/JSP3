@@ -1,5 +1,4 @@
-const username = prompt("Enter your username");
-const password = prompt("Enter your password");function isValidPassword(password, username) {
+function isValidPassword(password, username) {
 
 return (
     password.length >= 8 &&
@@ -7,3 +6,5 @@ return (
     !password.includes(" ")
 );
 }
+const username = prompt("Enter your username");
+const password = prompt("Enter your password");
